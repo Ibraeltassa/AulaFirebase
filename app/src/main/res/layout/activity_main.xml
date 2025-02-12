@@ -7,13 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnExecutar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="EXECUTAR"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="123dp" />
 
+    <TextView
+        android:id="@+id/bntResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="206dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
